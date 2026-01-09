@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    border: 1px solid #469165;
+}
+
+/* sherd styles */
+.btn{
+    background-color: #469165;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 14px 16px;
+    margin: 24px 120px;
+    cursor: pointer;
+   
+}
+
+.color3{
+    color: #30B868;
+}
+
+/* main styles */
+
+/* navbar styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo img{
+    margin: 16px 120px;
+}
+
+.nav-list{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.nav-list a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+/* header styles */
+
+.banner{
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    height: 674px;
+}
+
+.banner-container{
+    justify-items: center;
+    padding: 115px 120px;
+}
+
+.banner-btn .btn-1{
+    padding: 8px 12px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius:5px ;
+    margin-left: 260px;
+    margin-bottom: 16px;
+
+}
+
+.banner-title{
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.banner-description{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+
+.btn-2{
+    padding: 16px 12px;
+    background-color: #469165;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.btn-3{
+    padding: 16px 12px;
+    border: 1px solid #FFFFFF;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 24px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+/* card section styles */
+
+.card-text h1{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+}
+.card-text p{
+    text-align: center;
+    margin-top: 16px ;
+}
+
+.total-cards{
+    display: flex;
+    gap: 24px;
+    margin-top: 44px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    max-width: 322px;
+    padding: 24px;
+    
+}
+.img{
+    width: 60px;
+    height: 60px;
+    background: #F95555;
+    border-radius: 50%;        
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 70px 131px 16px ;
+    
+}
+
+.card h4{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin: 16px 24px;
+}
+
+.card p{
+    font-size: 16px;
+    height: 20px;
+    text-align: center;
+    margin: 16px 24px 70px;
+}
+
+/* brain-container styles */
+
+.brain-container{
+    display: flex;
+}
+
+.brain-container{
+    margin-top: 120px;
+}
+
+.brain-img img{
+    width: 600px ;
+    height: 600px;
+    border-radius: 12px;
+}
+
+.brain-text{
+    margin: 102px 0 120px 100px;
+}
+
+.brain-text h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.brain-text p{
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.brin-img-title{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 16px;
+    
+}
+
+.brin-img-title p{
+    margin: 0;
+    text-align: center;
+}
+
+/* think-section styles */
+
+.think-section{
+    margin: 120px;
+
+}
+
+.think-container{
+    max-width: 1360px;
+    background-color: #F7F6F2;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 40px;
+    border: none;
+    border-radius: 12px;
+}
+
+.think-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.think-container p{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.think-text{
+    margin-top: 16px;
+}
+
+/* footer section styles */
+
+.footer-container{
+    border: 1px solid darkblue;
+       background-color: #001931;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+}
+
+.footer-text{
+    margin-right:120px;
+}
+
+.footer-text h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.foot-img i{
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-right: 5px;
+}
+
+.footer-copy hr{
+    width: 1360px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    color: #E5E7EB;
+}
+
+.footer-copy p{
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
